@@ -1,5 +1,19 @@
-import { View } from "react-native";
+import ParallaxScrollView from "@/components/parallax-scroll-view";
+import { ProfileCards } from "@/components/ProfileCards";
+import { Image } from "expo-image";
 
 export default function HomeScreen() {
-  return <View style={{ flex: 1, backgroundColor: "#fff" }}></View>;
+  return (
+    <ParallaxScrollView
+      headerBackgroundColor={{ light: "#A1CEDC", dark: "#1D3D47" }}
+      headerImage={
+        <Image
+          source={require("../../assets/images/lake.jpg")}
+          style={{ width: "100%", height: "100%" }}
+        />
+      }
+    >
+      <ProfileCards />
+    </ParallaxScrollView>
+  );
 }
