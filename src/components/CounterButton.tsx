@@ -1,4 +1,4 @@
-import { useState } from "react";
+/*import { useState } from "react";
 import { Button, Text, View } from "react-native";
 
 export default function CounterButton ({title,initialValue,step}) {
@@ -10,3 +10,4 @@ export default function CounterButton ({title,initialValue,step}) {
       </View>
     );
 }
+*/
