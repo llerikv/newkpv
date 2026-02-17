@@ -24,9 +24,9 @@ export default function TabLayout() {
     />
   
     <Tabs.Screen
-      name="lerik"
+      name="Lerik"
       options={{
-        title: "lerik",
+        title: "Lerik",
         tabBarIcon: ({ color }) => (
           <IconSymbol size={28} name="star.fill" color={color} />
         ),
