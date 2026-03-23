@@ -8,7 +8,7 @@ import {
 } from "react-native";
 
 import TodoItem from "@/components/TodoItem";
-import { getTodos } from "@/services/TodoApi";
+import { getTodos } from "@/services/todoApi";
 import { Todo } from "../types/todo";
 
 export default function TodoScreen() {
